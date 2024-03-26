@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;   
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.editButton {
+    background-color:grey;
+    margin-left: 20px;
+}
+
+.ocultButton {
+
+    background-color:grey;
+    margin-left: 20px;
+}
+
+.editButton:hover {
+    background-color: #00aeff;
+}
+
+.resetButton:hover {
+    background-color: red;
+}
+
+.addButton:hover {
+    background-color: green;
+}
+
+.ocultButton:hover {
+    background-color: red;
+}
+
+
+.task {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.hide {
+    display: none;
+ 
+}
